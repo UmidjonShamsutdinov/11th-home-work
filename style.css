@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Hind+Madurai&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+nav{
+    max-width: 1600px;
+    height: auto;
+}
+
+.nav__bar{
+    height: auto;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 79px;
+    height: 79px;
+}
+
+
+.nav__wrapper{
+    display: flex;
+    gap: 0px 40px;
+    align-items: center;
+    list-style: none;
+    margin-left: 266px;
+    margin-right: 172px;
+    transition: 0.3s;
+}
+
+
+.nav__items{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #150101;
+    opacity: 0.6;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav__items:hover{
+    color: #D23166;
+    font-weight: 700;
+}
+
+
+.nav__btn{
+    width: 165px;
+    height: 49px;
+    background-color: #D23166;
+    border-radius: 5px;
+    border: none;
+    color: #FAFAFA;
+}
+
+.nav__btn:hover{
+    color: yellow;
+}
+
+.nav__btn:active{
+    background-color: #fafafa00;
+    color: #150101;
+}
+
+
+
+.first__s{
+    /* height: 862px; */
+    margin-top: -15px;
+    
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__s-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 610px;
+}
+
+
+
+.first__s-content  strong{
+    color: #0F0101;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+
+.first__s-content h1{
+    font-size: 57.33px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-bottom: 35px;
+}
+
+.first__s-content h1 span{
+    color: #D23166;
+}
+
+.first__s-content p{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Hind Madurai', sans-serif;
+    max-width: 525px;
+    font-size: 18px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+
+
+.first__s-content button{
+    width: 165px;
+    height: 49px;
+    background-color: #D23166;
+    border: none;
+    border-radius: 5px;
+    color: #FAFAFA;
+}
+
+.heroo{
+    background-color: rgba(242, 207, 218, 0.69);
+
+}
+
+.hero img{
+    margin-top: 126px;
+    margin-left: -500px;
+    margin-right: -200px;
+}
+
+
+
+.first__s-footer{
+    padding-bottom: 100px;
+}
+
+
+
+
+.first__s-footer-content{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    margin-top: 26px;
+    gap: 0 39px;
+    padding: 0 26px;
+}
+
+
+.first__s-footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.03);;
+    border-radius: 7px;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+
+
+.first__s-footer-items h2{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 9px;
+}
+
+.first__s-footer-items p{
+    font-size: 14px;
+    color: #000;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+
+
+
+.second{
+    max-width: 1600px;
+    height: auto;
+    background-color: #F8EDF0;
+}
+
+.brown__sugar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sugar__content h2{
+    max-width: 349px;
+    color: #150101;
+    font-size: 44.2px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    line-height: 110.5%;
+}
+
+.sugar__content p{
+    color: rgba(21, 1, 1, 0.69);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 16px 0 35px 0;
+}
+
+.product{
+    max-width: 1600px;
+    height: auto;
+
+}
+
+.product__title{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.product__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 64px;
+}
+
+.product__main{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
